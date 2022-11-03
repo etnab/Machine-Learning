@@ -1,0 +1,19 @@
+Utilidad de una linea recta 
+
+    Puede servir para representar las relaciones entre variables 
+    Nos puede servir para la regresión lineal 
+
+Regresion logistica
+
+    Metodo de clasificación
+    Apartir de la combinación nos da cuando será 0 o 1 (clasificacificación binaria)
+
+Clsificación en tres etapas 
+    1 combinación de linear de variables 
+    2 activación basado en una funcion sigmoidal
+    3 Si el valor de sigmoide es mayor que .5, regresar 1, sino 0 
+
+
+X = datos.iloc[:,:-1].to_numpy()
+#Todas la filas y todas las columnas excepto la ultima
+
